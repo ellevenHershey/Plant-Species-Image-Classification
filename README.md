@@ -108,7 +108,7 @@ Description: Datura (family Solanaceae) is known for hallucinogenic alkaloids. D
 
 ### Naranjilla Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/narajilla.jpg" alt="Narajilla" width="500" height="500">
+  <img src="Project%20Screenshots/Dataset/naranjilla.jpg" alt="Narajilla" width="500" height="500">
 </p>
 Common Name: Naranjilla / Lulo
 Scientific Name: Solanum quitoense
@@ -140,7 +140,7 @@ Description: Solanum (family Solanaceae) includes spiny nightshades. S. sisymbri
 
 ### Silverleaf Nightshade Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/silverleafnightshade.jpg" alt="Silverleaf Nightshade" width="500" height="500">
+  <img src="Project%20Screenshots/Dataset/silverleafnighshade.jpg" alt="Silverleaf Nightshade" width="500" height="500">
 </p>
 Common Name: Silverleaf Nightshade  
 Scientific Name: Solanum elaeagnifolium  
