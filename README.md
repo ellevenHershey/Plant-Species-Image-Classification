@@ -1,13 +1,13 @@
-# Plant Species Image Classification - Nightshade Family (Solanaceae) Using Google Teachable Machine
+#  Plant Species Image Classification - Nightshade Family (Solanaceae) Using Google Teachable Machine
 
-## Project Overview
+## A. Project Overview
 This project presents a Supervised Learning multi-class image classification model designed to identify and classify 20 distinct plant species from leaf and plant imagery. The model was developed using Google Teachable Machine, a web-based tool that enables the creation of machine learning models through an accessible,drag and drop interface.
 
 The main goal of this project is to streamline plant species identification using visual input. When provided with a plant image, the trained model generates a prediction of the species class together with a confidence score. This system offers valuable applications in botanical research, biodiversity monitoring, agricultural diagnostics, and educational environments where quick and accurate plant identification is essential.
 
 The dataset consists of 5,000 images across 20 plant species classes, with each class containing 250 labeled samples to provide balanced representation for training and evaluation. The model was fully trained, tested, and validated within the Google Teachable Machine platform.
 
-## Plant Species
+## B. Plant Species
 In this section you will see the 20 nightshade family plant species used to train this model.
 
 ### Angels Trumpet
@@ -52,7 +52,7 @@ Description: Sechium belongs to the family Cucurbitaceae, native to Mesoamerica.
 
 ### Chili Pepper Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/chilipepper.jpg" alt="Chili Pepper" width="500" height="500">
+  <img src="Project%20Screenshots/Dataset/chilipepper.jpeg" alt="Chili Pepper" width="500" height="500">
 </p>
 Common Name: Chili Pepper  
 Scientific Name: Capsicum annuum (and related species)  
@@ -68,7 +68,7 @@ Description: Solanum (family Solanaceae) includes tropical shrubs. S. sessiliflo
 
 ### Common Desert Thorn Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/commondesertthorn.jpg" alt="common desert thorn" width="500" height="500">
+  <img src="Project%20Screenshots/Dataset/commondesertthorn.jpeg" alt="common desert thorn" width="500" height="500">
 </p>
 Common Name: Desert Thorn  
 Scientific Name: Lycium shawii  
@@ -147,26 +147,32 @@ Scientific Name: Solanum elaeagnifolium
 Description: Solanum (family Solanaceae) includes hardy perennials. S. elaeagnifolium has silvery leaves and purple flowers. Ecologically, it is drought-tolerant. Economically, it is considered a weed but used medicinally.
 
 ### Tobacco Plant
-
+<p align="center">
+  <img src="Project%20Screenshots/Dataset/tobacco.jpeg" alt="Tobacco" width="500" height="500">
+</p>
 Common Name: Tobacco  
 Scientific Name: Nicotiana tabacum  
 Description: Nicotiana (family Solanaceae) is native to the Americas. N. tabacum is cultivated for its leaves, processed into tobacco products. Economically, it is globally significant. Ecologically, it supports pollinators but is chemically defended.
 
 ### Tree Tomato Plant
-
+<p align="center">
+  <img src="Project%20Screenshots/Dataset/treetomato.jpg" alt="Tree Tomato" width="500" height="500">
+</p>
 Common Name: Tree Tomato / Tamarillo  
 Scientific Name: Solanum betaceum  
 Description: Solanum (family Solanaceae) includes subtropical shrubs. S. betaceum, native to the Andes, produces tangy fruits. Economically, it is cultivated for juices. Ecologically, it thrives in highland climates.
 
 ### Wolfberry Plant
-
+<p align="center">
+  <img src="Project%20Screenshots/Dataset/wolfberry.jpeg" alt="Wolfberry" width="500" height="500">
+</p>
 Common Name: Wolfberry / Goji Berry  
 Scientific Name: Lycium barbarum / Lycium chinense  
 Description: Lycium (family Solanaceae) includes shrubs native to East Asia. These species produce red berries rich in antioxidants. Economically, they are marketed as health foods. Ecologically, they adapt to varied soils and climates.
 
 
 
-## Model Training details 
+## C. Model Training details 
 In this section you will see the epochs, batch size, learning rate, number of images per size, and tests made. 
 
 ### Epochs        = 351
@@ -199,7 +205,7 @@ In this section you will see the epochs, batch size, learning rate, number of im
 |     |               Total: | 5,000
 
 
-## Model Evaluation 
+## D. Model Evaluation 
 
 ### Confusion Matrix 
 
@@ -211,5 +217,5 @@ In this section you will see the epochs, batch size, learning rate, number of im
 #### Training Loss
 
 
-## Model Testing
+## E. Model Testing
 In this section, the model's generalization capability and accuracy prediction are validatet through 10 independent test cases. Each case involves a previously unseen image, with the calssification output recorded, including the predicted species and its confidence percentage. These test cases provide observed evidence of the model's inference performance beyond the training and validation datasets
