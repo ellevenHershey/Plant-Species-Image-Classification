@@ -156,7 +156,7 @@ Description: Nicotiana (family Solanaceae) is native to the Americas. N. tabacum
 
 ### Tree Tomato Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/treetomato.jpg" alt="Tree Tomato" width="500" height="500">
+  <img src="Project Screenshots/Dataset/treetomato.jpg" alt="Tree Tomato" width="500" height="500">
 </p>
 Common Name: Tree Tomato / Tamarillo  
 Scientific Name: Solanum betaceum  
@@ -164,7 +164,7 @@ Description: Solanum (family Solanaceae) includes subtropical shrubs. S. betaceu
 
 ### Wolfberry Plant
 <p align="center">
-  <img src="Project%20Screenshots/Dataset/wolfberry.jpeg" alt="Wolfberry" width="500" height="500">
+  <img src="Project Screenshots/Dataset/wolfberry.jpeg" alt="Wolfberry" width="500" height="500">
 </p>
 Common Name: Wolfberry / Goji Berry  
 Scientific Name: Lycium barbarum / Lycium chinense  
@@ -206,16 +206,48 @@ In this section you will see the epochs, batch size, learning rate, number of im
 
 
 ## D. Model Evaluation 
+To determine the effectiveness and reliability of the trained model, I conducted a comprehensive evaluation across several key performance metrics. This phase is critical to ensuring that the model has not only learned the patterns within the training data but can also generalize effectively to unseen information.
 
 ### Confusion Matrix 
+<div style="white-space: nowrap; overflow-x: auto; width: 100%; border: 1px solid #eee; padding: 10px;">
+  
+  <img src="Project Screenshots\Training\Confusion Matrix\Screenshot 2026-03-29 014422.png" 
+       alt="CM 1" 
+       style="display: inline-block; width: 200px; height: 400px; object-fit: contain; margin-right: 10px;">
+   <img src="Project Screenshots\Training\Confusion Matrix\Screenshot 2026-03-29 014503.png" 
+       alt="CM 2" 
+       style="display: inline-block; width: 200px; height: 400px; object-fit: contain; margin-right: 10px;">
+  <img src="Project Screenshots\Training\Confusion Matrix\Screenshot 2026-03-29 014513.png" 
+       alt="CM 3" 
+       style="display: inline-block; width: 200px; height: 400px; object-fit: contain;">
+
+</div>
 
 ### Accuracy per Class
+<p align="center">
+  <img src="Project Screenshots\Training\Accuracy\accuracy.png" alt="Accuracy" width="200" height="400">
+</p>
 
 ### Overall Model Accuracy
+
 #### Training Accuracy
-
 #### Training Loss
-
+<p align="center">
+  <img src="Project Screenshots\Training\Screenshot 2026-03-29 014857.png" alt="Accuracy" width="300" height="500">
+</p>
 
 ## E. Model Testing
 In this section, the model's generalization capability and accuracy prediction are validatet through 10 independent test cases. Each case involves a previously unseen image, with the calssification output recorded, including the predicted species and its confidence percentage. These test cases provide observed evidence of the model's inference performance beyond the training and validation datasets
+
+#### Test 1
+<p align="center">
+  <img src="Project Screenshots\Training\Screenshot 2026-03-29 014857.png" alt="Accuracy" width="300" height="500">
+</p>
+#### Test 2
+#### Test 3
+#### Test 4
+#### Test 5
+#### Test 7
+#### Test 8
+#### Test 9
+#### Test 10
